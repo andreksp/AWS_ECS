@@ -19,3 +19,9 @@ phases:
       - printf '[{"name":"myrepo","imageUri":"%s"}]' 395893388747.dkr.ecr.sa-east-1.amazonaws.com/myrepo > imagedefinitions.json
 artifacts:
     files: imagedefinitions.json
+
+
+      - printf '[{"name":"TaskECS:1","imageUri":"%s"}]' 395893388747.dkr.ecr.sa-east-1.amazonaws.com/myrepo:latest > imagedefinitions.json
+
+artifacts:
+    files: imagedefinitions.json    
