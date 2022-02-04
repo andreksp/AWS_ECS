@@ -14,12 +14,11 @@ curl http://localhost:80
 docker build -t node-web-app .
 
 # Objectives
-Package and build a node application and package a simple node application with Docker
-Create an ECR repository to store our Docker Image
-Upload the Docker image to the repository
-Create and launch an Elastic Container Cluster (ECR)
-Launch our application as a task within the Elastic Container Cluster
-Expose and open this application on the internet
+Create docker
+Publish docker image on ECR
+Create Task
+Create Service with ALB and Autoscaling
+Create pipeline deploying to ECS.
 
 # Create cluster(ECS CLI)
 cd  "C:\Program Files\Amazon\ECSCLI\"
